@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 8px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background: #444;
+  cursor: pointer;
+}
+
+.safe {
+  background: green;
+}
+
+.mine {
+  background: red;
+}
